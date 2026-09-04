@@ -77,7 +77,7 @@ function StatusChip({ tone, children }: { tone: 'green' | 'amber' | 'plain'; chi
     amber: 'text-[#9A6B1F] bg-[#F7F0DF] border-[#E3D3AC]',
     plain: 'text-[#57514A] border-[#C9C1B2]',
   }[tone];
-  return <span className={'rounded-full border px-2.5 py-1 text-[11px] font-semibold ' + styles}>{children}</span>;
+  return <span className={'inline-block rounded-full border px-2.5 py-1 text-center text-[11px] font-semibold ' + styles}>{children}</span>;
 }
 
 function DashboardMock() {
