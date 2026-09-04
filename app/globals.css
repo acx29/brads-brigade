@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#FCFBF9] text-[#201B16] font-sans antialiased;
+  font-optical-sizing: auto;
+  font-variation-settings: 'wdth' 100;
+}
+input::placeholder { color: #9a9288; }
+input:focus { outline: 2px solid #b03a2b; outline-offset: 1px; }
+html { scroll-behavior: smooth; }
