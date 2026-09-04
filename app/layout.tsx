@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Brad\u2019s Brigade \u2014 The home base for firetruck musters',
+  title: 'Brad\u2019s Brigade | The home base for firetruck musters',
   description:
     'Brad\u2019s Brigade brings firetruck enthusiasts, muster organizers, and chapter officers together in one place, raising awareness and money for the Muscular Dystrophy Association.',
 };
